@@ -1,0 +1,108 @@
+/* I commneti che contengono i vari background-color
+sono quelli che se tolti mostrano la struttura della pagina,
+utile per debug************************************/
+
+body {
+  background-image: url(imgs/sfondoMail.jpg);
+}
+
+.containerEsterno{
+  width: 60%;
+  margin: auto;
+  margin-top: 2%;
+  /* background-color: rgba(45, 212, 223, 0.5); */
+  padding: 15px;
+}
+
+/* controlla lo spessore di ogni sezione al suo interno */
+.containerInterno{
+  width: 50%;
+  margin: auto;
+  /* background-color: rgba(49, 12, 223, 0.38); */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ***************************************************+
+Queste Voci gestiscono il centraggio della BUSTA di gmail con la scritt GMAIL
+********************************************************/
+header{
+  /* background-color: rgba(255, 255, 255, 0.25); */
+  margin: auto;
+  height: 100px;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+#titoloLogo{
+  padding-top: 32px;
+  color: white;
+}
+/* *********************************************++**************+ */
+/* *********************************************++**************+ */
+
+
+/* ***********QUESTE VOCI GESTISCONO LA SEZIONE RICERCA*************+ */
+/* *********************************************++**************+ */
+#search{
+  /* background-color: rgba(0, 255, 77, 0.75);
+  border: solid 1px red; */
+  color: white;
+}
+
+.cerchio{
+  border-radius: 100%;
+  background-color: orange;
+  display: inline;
+  padding: 9px;
+}
+
+.colorInputSearch{
+  color: grey;
+}
+
+/* **********QUESTE VOCI GESTISCONO LA SEZIONE CHE CONTIENE LE MAIL*******+ */
+/* *********************************************++**************+ */
+
+main{
+  /* background-color: rgba(250, 255, 0, 0.8);
+  border: solid 1px violet; */
+}
+
+
+
+.sfondoGrigio{
+  background-color: rgba(162, 176, 169, 0.9);
+}
+.sfondoMailSelezionata{
+  background-color: rgba(242, 255, 252, 0.8);
+}
+
+.paddingSingolaMail{
+  padding: 1.5px;
+}
+
+.testoGrigio{
+  color: grey;
+}
+/* *********************************************++**************+ */
+
+
+/* ************Questo gestisce il css di Footer***********+ */
+footer{
+  /* background-color: grey;
+  border: solid 1px red; */
+  text-align: center;
+}
+.testoFooter{
+  color: white;
+  font-size: 25px;
+}
+.coloreFooter{
+  color:white;
+}
+/* *********************************************++**************+ */
